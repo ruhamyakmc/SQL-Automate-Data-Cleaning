@@ -14,3 +14,7 @@ The logic check is used to verify logic, such as if a field is a specific value,
 Appendix A:  Sample Data Dictionary
 
 ![Capture](https://user-images.githubusercontent.com/112645280/205678770-43428f19-dd6d-4873-8a0e-a51c0fcf0422.JPG)
+
+#### Data cleaned the stored procedures.
+
+https://clinepidb.org/ce/app/workspace/analyses/DS_0ad509829e/new/download
