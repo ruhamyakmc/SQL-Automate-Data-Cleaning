@@ -13,10 +13,10 @@ The logic check is used to verify logic, such as if a field is a specific value,
 
 Appendix A:  Sample Data Dictionary
 
-Field Name	Description 
-DVARNAME	Field name in the CRF table
-DDESCRIP	Question # and description from table
-DFORM	Name of table/CRF
+1. Field Name	Description 
+2. DVARNAME	Field name in the CRF table
+3. DDESCRIP	Question # and description from table
+4. DFORM	Name of table/CRF
 DFORM2	Name of second table/CRF when doing a cross-table logic check.
 DORDER	Incremental number beginning at 1 to list fields in desired order.
 DVARTYPE	Variable type for data checking.
