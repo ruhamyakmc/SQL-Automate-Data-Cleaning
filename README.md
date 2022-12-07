@@ -1,4 +1,4 @@
-## T-SQL Data cleaning 
+## SQL Data cleaning 
 This project explores automated data cleaning using Microsoft T-SQL; It flags, generates and inserts queries into a queries table. Requires a table that has the data and a data dictionary. The Data Dictionary (Appendix A and .../datadictionaries) includes a record for every field in the main table that needs to be cleaned—currently accommodating only four types of cleaning for any piece of data. Included are the following. Possible Values check, Required check, Numeric Range check, and Logic check. A query will be generated and inserted into the queries table (check structure under SQL- Queries, queries_table.sql) for any data where the validation fails.
 Below is an explanation for each check. 
 ### Possible Values check. 
