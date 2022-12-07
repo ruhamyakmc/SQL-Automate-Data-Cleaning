@@ -1,7 +1,17 @@
-USE [dbProject3]
+USE [dbproject3]
 GO
 
-/****** Object:  Table [dbo].[queries_cvf]    Script Date: 03/12/2022 09:16:02 ******/
+ALTER TABLE [dbo].[queries_cvf] DROP CONSTRAINT [DF_queries_cvf_Comments_1]
+GO
+
+/****** Object:  Table [dbo].[queries_cvf]    Script Date: 07/12/2022 06:45:55 ******/
+IF  EXISTS (SELECT *
+FROM sys.objects
+WHERE object_id = OBJECT_ID(N'[dbo].[queries_cvf]') AND type in (N'U'))
+DROP TABLE [dbo].[queries_cvf]
+GO
+
+/****** Object:  Table [dbo].[queries_cvf]    Script Date: 07/12/2022 06:45:55 ******/
 SET ANSI_NULLS ON
 GO
 

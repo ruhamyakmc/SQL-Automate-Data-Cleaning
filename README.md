@@ -1,9 +1,5 @@
 ## SQL Data cleaning 
-This project explores automated data cleaning using Microsoft T-SQL; It flags, generates and inserts queries into a queries table. Requires a table that has the data and a data dictionary. The Data Dictionary (Appendix A and .../datadictionaries) includes a record for every field in the main table that needs to be cleaned—currently accommodating only four types of cleaning for any piece of data. Included are the following. Possible Values check, Required check, Numeric Range check, and Logic check. A query will be generated and inserted into the queries table (check structure under SQL- Queries, queries_table.sql) for any data where the validation fails.
-
-## T-SQL Data cleaning 
-This project explores data cleaning using microsoft T-SQL. Requires a table that has the data and a data dictionary . The Data Dictionary(Appendix A and ../datadictionaries) includes a record for every field in tha main table that needs to be cleaned. This repo currently accomodates only 4 types of cleaning for any piece of data. Included are the following. Possible Values check, Required check, Numeric Range check, and Logic check. A query will be generated and inserted into the queries table ( check structure under SQL- Queries, queries_table.sql ) for any data where the validation fails.
-
+This project explores automated data cleaning using Microsoft T-SQL; It flags, Requires a table that has the data and a data dictionary. The Data Dictionary (Appendix A and .../datadictionaries) includes a record for every field in the main table that needs to be cleaned—currently accommodating only four types of cleaning for any piece of data. Included are the following. Possible Values check, Required check, Numeric Range check, and Logic check. A query will be generated and inserted into the queries table (check structure under SQL- Queries, queries_table.sql) for any data where the validation fails.
 Below is an explanation for each check. 
 ### Possible Values check. 
 This is a list of all possible values for a given field.  If the value does not appear in the list, 
@@ -18,4 +14,3 @@ The logic check is used to verify logic, such as if a field is a specific value,
 Appendix A:  Sample Data Dictionary
 
 ![Capture](https://user-images.githubusercontent.com/112645280/205678770-43428f19-dd6d-4873-8a0e-a51c0fcf0422.JPG)
-
