@@ -14,3 +14,9 @@ The logic check is used to verify logic, such as if a field is a specific value,
 Appendix A:  Sample Data Dictionary
 
 ![Capture](https://user-images.githubusercontent.com/112645280/205678770-43428f19-dd6d-4873-8a0e-a51c0fcf0422.JPG)
+
+References:
+
+Table structure adopted from a malaria study, Table and dictionary --- Clinical visit form - Used to collect information each time participants were seen in the clinic routine and non-routine visits)
+
+https://clinepidb.org/ce/app/workspace/analyses/DS_51b40fe2e2/new/details#description
